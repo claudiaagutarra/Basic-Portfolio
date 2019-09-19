@@ -3,27 +3,29 @@ body {
 }
 .header {
     width: 100%;
-    height: 55px;
+    height: 81px;
     background-color: white;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
   }
 
 h1 {
     color: white;
     background: #4aaaa5;
     float: left;
-    padding: 20px; 
+    padding: 28px 30px 28px 30px;
     font-family: 'Georgia','Times New Roman', Times, serif;
-    margin-left: 200px;
+    margin-left: 220px;
     margin-top: 0px;
+    font-size: 27px;
+    font-weight: bold;
 
 }
 
 ul {
-    margin-right: 200px;
+    margin-right: 195px;
     float: right;
     overflow: auto;
-    padding: 20px;
+    padding: 30px;
     color: #777777;
     font-size: 14px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -37,6 +39,7 @@ li {
 a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
+    color: #777777;
 }
 
 .content {
@@ -53,8 +56,14 @@ a {
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia','Times New Roman', Times, serif;
-}
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 13px;
 
+}
+hr {
+    color: #777777;
+}
 img {
     float: left;
     width: 160px;
