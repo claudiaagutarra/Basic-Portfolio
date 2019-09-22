@@ -65,7 +65,7 @@ h2 {
     letter-spacing: 1px;
 }
 hr {
-    color: #777777;
+    border: 2px solid #ebe5e5;
     margin-bottom: 20px;
 }
 img {
