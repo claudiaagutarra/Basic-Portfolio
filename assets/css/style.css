@@ -14,7 +14,7 @@ h1 {
     float: left;
     padding: 28px 30px 28px 30px;
     font-family: 'Georgia','Times New Roman', Times, serif;
-    margin-left: 220px;
+    margin-left: 210px;
     margin-top: 0px;
     font-size: 27px;
     font-weight: 600;
@@ -52,7 +52,7 @@ a {
     width: 960px;
     line-height: 32px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     overflow: auto;
 }
 
@@ -66,6 +66,7 @@ h2 {
 }
 hr {
     color: #777777;
+    height: 1px;
 }
 img {
     float: left;
@@ -122,21 +123,82 @@ button {
   }
 
   .first {
-
+    background-image: url("../images/tictactoe.jpg");
+    width: 33%;
+    float: left;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 40px;
   }
 
   .second {
-
+    background-image: url("../images/rpgpic.jpg");
+    width: 33%;
+    float: left;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 40px;
   }
 
   .third {
+    background-image: url("../images/triviapic.jpg");
+    width: 33%;
+    clear: auto;
+    float: left;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 40px;
+
 
   }
 
   .fourth {
+    background-image: url("../images/widgetpic.gif");
+    width: 33%;
+    float: left;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 40px;
+  
+
 
   }
 
   .fifth {
+    background-image: url("../images/rockpapscispic.png");
+    width: 33%;
+    clear: auto;
+    float: left;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 40px;
+
+  }
+
+  h3 {
+    color: white;
+    background: #4aaaa5;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
 
   }
