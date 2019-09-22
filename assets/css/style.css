@@ -61,12 +61,12 @@ h2 {
     font-family: 'Georgia','Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
-    padding-bottom: 13px;
+    padding-bottom: 10px;
     letter-spacing: 1px;
 }
 hr {
     color: #777777;
-    height: 1px;
+    margin-bottom: 20px;
 }
 img {
     float: left;
@@ -79,20 +79,31 @@ p {
     color: #777777;
 }
 
+#aboutp {
+    padding-top: 15px;
+}
+
+#contactp {
+    color: #777777;
+    font-size: 17px;
+}
 input[type="Name"] {
     border: 1;
     padding: 5px;
     font-size: 14px;
     width: 940px;
+    margin-bottom: 10px;
 }
 input[type="Email"] {
     border: 1;
     padding: 5px;
     font-size: 14px;
     width: 940px;
+    margin-bottom: 10px;
 }
 textarea {
     border: 1;
+    border-color: #cccccc;
     padding: 5px;
     font-size: 14px;
     width: 940px;
@@ -124,31 +135,31 @@ button {
 
   .first {
     background-image: url("../images/tictactoe.jpg");
-    width: 33%;
+    width: 31%;
     float: left;
     background-size: cover;
     height: 200px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom:20px;
     margin-right: 40px;
   }
 
   .second {
     background-image: url("../images/rpgpic.jpg");
-    width: 33%;
+    width: 31%;
     float: left;
     background-size: cover;
     height: 200px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom:20px;
     margin-right: 40px;
   }
 
   .third {
     background-image: url("../images/triviapic.jpg");
-    width: 33%;
+    width: 31%;
     clear: auto;
     float: left;
     background-size: cover;
@@ -163,7 +174,7 @@ button {
 
   .fourth {
     background-image: url("../images/widgetpic.gif");
-    width: 33%;
+    width: 31%;
     float: left;
     background-size: cover;
     height: 200px;
@@ -178,7 +189,7 @@ button {
 
   .fifth {
     background-image: url("../images/rockpapscispic.png");
-    width: 33%;
+    width: 31%;
     clear: auto;
     float: left;
     background-size: cover;
@@ -193,10 +204,10 @@ button {
   h3 {
     color: white;
     background: #4aaaa5;
-    font-size: 24px;
+    font-size: 23px;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;  
+    padding-top: 12px;
+    padding-bottom: 12px;  
     width: 100%;
     position: absolute;
     bottom: 15px;
