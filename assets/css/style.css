@@ -70,9 +70,10 @@ hr {
 }
 img {
     float: left;
-    width: 160px;
-    height: 230px;
+    width: 200x;
+    height: 260px;
     padding-right: 27px;
+    padding-bottom: 11px;
 }
 
 p {
